@@ -27,3 +27,25 @@ body {
   display: block;
   border: 1px solid #fff;
 }
+
+.item-relative {
+  position: relative;
+  top: -30px;
+  left: -30px;
+}
+
+.item-absolute {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.absolute {
+  position: relative;
+}
+
+.item-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
